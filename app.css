@@ -1,0 +1,34 @@
+.topic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #222;
+  }
+  
+  .topic:first-child {
+    padding-top: 0;
+  }
+  
+  .topic:last-child {
+    border-bottom: 0;
+  }
+  
+  .topic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .topic .title {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-weight: 500;
+    font-size: 18px;
+  }
